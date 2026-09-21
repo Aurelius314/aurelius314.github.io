@@ -93,21 +93,22 @@ Sijie Xiong, **Shuheng Hu**, Tao Sun, Yuanyuan Zhang, Cheng Tang, Rui Yang, Atsu
 - *2023.09 - 2027.06*, BSc. Information and Computing Science, Xi’an Jiaotong-Liverpool University
 
 <style>
-.terminal-container{width:100%;border-radius:12px;overflow:hidden;box-shadow:0 8px 30px rgba(0,0,0,.12);font-family:’Fira Code’,’Cascadia Code’,’Consolas’,monospace;font-size:14px}
-.terminal-header{background:#2e3440;padding:10px 16px;display:flex;align-items:center;gap:8px}
+.terminal-container{width:100%;border-radius:12px;overflow:hidden;box-shadow:0 4px 20px rgba(0,0,0,.08);font-family:’Fira Code’,’Cascadia Code’,’Consolas’,monospace;font-size:14px;border:1px solid #e0dcd4}
+.terminal-header{background:#f0ece2;padding:10px 16px;display:flex;align-items:center;gap:8px}
 .terminal-dot{width:12px;height:12px;border-radius:50%}
-.terminal-dot.red{background:#bf616a}.terminal-dot.yellow{background:#ebcb8b}.terminal-dot.green{background:#a3be8c}
-.terminal-header-title{color:#d8dee9;font-size:13px;margin-left:8px;opacity:.7}
-.terminal-body{background:#3b4252;padding:20px;min-height:120px;max-height:400px;overflow-y:auto}
-.terminal-output-line{color:#d8dee9;margin-bottom:6px;line-height:1.6;white-space:pre-wrap}
-.terminal-output-line .highlight{color:#88c0d0}.terminal-output-line .accent{color:#a3be8c}.terminal-output-line .warn{color:#ebcb8b}.terminal-output-line .error{color:#bf616a}
+.terminal-dot.red{background:#f0a89e}.terminal-dot.yellow{background:#f0d29a}.terminal-dot.green{background:#aacbac}
+.terminal-header-title{color:#8c857a;font-size:13px;margin-left:8px;opacity:.7}
+.terminal-body{background:#f7f4ed;padding:20px;min-height:120px;max-height:400px;overflow-y:auto}
+.terminal-output-line{color:#4a4640;margin-bottom:6px;line-height:1.6;white-space:pre-wrap}
+.terminal-output-line .highlight{color:#b07158}.terminal-output-line .accent{color:#5b8366}.terminal-output-line .warn{color:#b07158}.terminal-output-line .error{color:#c25d5d}
 .terminal-prompt-line{display:flex;align-items:center;margin-top:8px}
-.terminal-user{color:#a3be8c}.terminal-at{color:#d8dee9}.terminal-host{color:#88c0d0}.terminal-sep{color:#d8dee9}.terminal-path{color:#81a1c1}.terminal-dollar{color:#d8dee9;margin-right:8px}
-.terminal-input{background:transparent;border:none;outline:none;color:#d8dee9;font-family:inherit;font-size:inherit;flex:1;caret-color:#88c0d0}
-.terminal-input::placeholder{color:#4c566a}
-.terminal-hint{color:#4c566a;padding:8px 0 0;font-size:12px}
-.terminal-hint span{color:#ebcb8b}
-.terminal-ascii{color:#88c0d0}.terminal-coffee-art{color:#ebcb8b}
+.terminal-user{color:#5b8366}.terminal-at{color:#8c857a}.terminal-host{color:#b07158}.terminal-sep{color:#8c857a}.terminal-path{color:#7b9ebd}.terminal-dollar{color:#8c857a;margin-right:8px}
+.terminal-input{background:transparent;border:none;outline:none;color:#4a4640;font-family:inherit;font-size:inherit;flex:1;caret-color:#5b8366}
+.terminal-input::placeholder{color:#c0bab0}
+.terminal-hint{color:#b0a99e;padding:8px 0 0;font-size:12px}
+.terminal-hint span{color:#b07158}
+.terminal-ascii{color:#b07158}.terminal-coffee-art{color:#b07158}
+.color-block{display:inline-block;width:18px;height:18px;border-radius:3px;margin-right:4px;vertical-align:middle}
 </style>
 
 <div class="terminal-container">

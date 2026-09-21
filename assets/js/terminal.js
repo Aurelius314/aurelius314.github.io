@@ -3,6 +3,8 @@ document.addEventListener("DOMContentLoaded", function () {
   var input = document.getElementById("terminalInput");
   if (!body || !input) return;
 
+  var hintHTML = body.querySelector(".terminal-hint").outerHTML;
+
   var commands = {
     help: function () {
       return [
@@ -19,13 +21,13 @@ document.addEventListener("DOMContentLoaded", function () {
       return [
         '<span class="terminal-ascii"> _   _ ____  _   _</span>',
         '<span class="terminal-ascii">| | | / ___|| | | |</span>   <span class="highlight">visitor</span>@<span class="highlight">shuheng</span>',
-        '<span class="terminal-ascii">| |_| \\___ \\| |_| |</span>   __________________',
+        '<span class="terminal-ascii">| |_| \\___ \\| |_| |</span>   ────────────────────',
         '<span class="terminal-ascii">|  _  |___) |  _  |</span>   <span class="accent">Name:</span> Shuheng Hu (胡书恒)',
         '<span class="terminal-ascii">|_| |_|____/|_| |_|</span>   <span class="accent">Role:</span> Student &amp; Researcher @ XJTLU',
         '                      <span class="accent">Research:</span> Multimodal LLMs · Optimization',
         '                      <span class="accent">Location:</span> Suzhou, China 🇨🇳',
         '                      <span class="accent">Uptime:</span> Since Sept. 2023',
-        '                      <span style="color:#bf616a">██</span><span style="color:#d08770">██</span><span style="color:#ebcb8b">██</span><span style="color:#a3be8c">██</span><span style="color:#88c0d0">██</span><span style="color:#81a1c1">██</span><span style="color:#b48ead">██</span>',
+        '                      <span class="color-block" style="background:#bf616a"></span><span class="color-block" style="background:#d08770"></span><span class="color-block" style="background:#ebcb8b"></span><span class="color-block" style="background:#a3be8c"></span><span class="color-block" style="background:#8fbcbb"></span><span class="color-block" style="background:#88c0d0"></span><span class="color-block" style="background:#81a1c1"></span><span class="color-block" style="background:#b48ead"></span>',
       ];
     },
     fortune: function () {
@@ -47,12 +49,12 @@ document.addEventListener("DOMContentLoaded", function () {
     },
     coffee: function () {
       return [
-        '<span class="terminal-coffee-art">    ( (</span>',
-        '<span class="terminal-coffee-art">     ) )</span>',
-        '<span class="terminal-coffee-art">  ........</span>',
-        '<span class="terminal-coffee-art">  |      |]</span>',
-        '<span class="terminal-coffee-art">  |      |</span>',
-        "<span class=\"terminal-coffee-art\">   `----'</span>",
+        '<span class="terminal-coffee-art">      ( (</span>',
+        '<span class="terminal-coffee-art">       ) )</span>',
+        '<span class="terminal-coffee-art">    .------.</span>',
+        '<span class="terminal-coffee-art">    |      |]</span>',
+        '<span class="terminal-coffee-art">     \\    /</span>',
+        "<span class=\"terminal-coffee-art\">      `--'</span>",
         "",
         '<span class="accent">☕ Brewing fresh coffee... Done! Enjoy!</span>',
       ];
@@ -96,8 +98,10 @@ document.addEventListener("DOMContentLoaded", function () {
         outputLines.forEach(function (el) {
           el.remove();
         });
-        var hint = body.querySelector(".terminal-hint");
-        if (hint) hint.style.display = "none";
+        var oldHint = body.querySelector(".terminal-hint");
+        if (oldHint) oldHint.remove();
+        var prompt = body.querySelector(".terminal-prompt-line");
+        prompt.insertAdjacentHTML("afterend", hintHTML);
       } else if (commands[cmd]) {
         addOutput(commands[cmd]());
       } else {
