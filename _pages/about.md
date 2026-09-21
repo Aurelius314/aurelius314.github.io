@@ -27,20 +27,6 @@ My research interests lie in algorithmic foundations of multimodal large models 
 
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">BICS 2025</div><img src='images/bics.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-Cross-Subject EEG Emotion Recognition via Adaptive Representation and Attention Fusion
-<!-- (https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf) -->
-
-Siyuan Gao, **Shuheng Hu**, Zhao Wang, Yumei Luo, Fangyu Wu
-brain inspired cognitive systems (BICS), 2025
-
-<!-- [**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->
-</div>
-</div>
-
 <!-- - [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020** -->
 
 <!-- # 🎖 Honors and Awards
@@ -55,6 +41,31 @@ Multimodal Boolean Logic Culture Retrieval
 Jian Zhang, **Shuheng Hu**, Jiutian Chang, Junyi Guo, Huanda Lu, Qiufeng Wang, Fangyu Wu
 EMNLP Findings, 2026
 
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">MobileHCI 2026</div><img src='images/movemate.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[MoveMate: Supporting Video-Guided Workouts through Motion Visual Analysis and Multi-Device Guidance](https://programs.sigchi.org/mobilehci/2026/program/content/263573)
+
+Yihan Liu, Anqi Xie, **Shuheng Hu**, Yong Yue, Yu Liu
+ACM International Conference on Mobile Human-Computer Interaction (MobileHCI), 2026.
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">BICS 2025</div><img src='images/bics.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+Cross-Subject EEG Emotion Recognition via Adaptive Representation and Attention Fusion
+<!-- (https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf) -->
+
+Siyuan Gao, **Shuheng Hu**, Zhao Wang, Yumei Luo, Fangyu Wu
+brain inspired cognitive systems (BICS), 2025
+
+<!-- [**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->
 </div>
 </div>
 
@@ -78,20 +89,5 @@ Sijie Xiong, **Shuheng Hu**, Tao Sun, Yuanyuan Zhang, Cheng Tang, Rui Yang, Atsu
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">MobileHCI 2026</div><img src='images/movemate.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[MoveMate: Supporting Video-Guided Workouts through Motion Visual Analysis and Multi-Device Guidance](https://programs.sigchi.org/mobilehci/2026/program/content/263573)
-
-Yihan Liu, Anqi Xie, **Shuheng Hu**, Yong Yue, Yu Liu
-ACM International Conference on Mobile Human-Computer Interaction (MobileHCI), 2026.
-
-</div>
-</div>
-
 # 📖 Educations
 - *2023.09 - 2027.06*, BSc. Information and Computing Science, Xi’an Jiaotong-Liverpool University
-
-<!-- # 💬 Invited Talks
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/) -->
