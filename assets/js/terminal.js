@@ -49,12 +49,12 @@ document.addEventListener("DOMContentLoaded", function () {
     },
     coffee: function () {
       return [
-        '<span class="terminal-coffee-art">      ( (</span>',
-        '<span class="terminal-coffee-art">       ) )</span>',
-        '<span class="terminal-coffee-art">    .------.</span>',
-        '<span class="terminal-coffee-art">    |      |]</span>',
-        '<span class="terminal-coffee-art">     \\    /</span>',
-        "<span class=\"terminal-coffee-art\">      `--'</span>",
+        '<span class="terminal-coffee-art">    ( (</span>',
+        '<span class="terminal-coffee-art">     ) )</span>',
+        '<span class="terminal-coffee-art">  ........</span>',
+        '<span class="terminal-coffee-art">  |      |]</span>',
+        '<span class="terminal-coffee-art">  \\      /</span>',
+        "<span class=\"terminal-coffee-art\">   `----'</span>",
         "",
         '<span class="accent">☕ Brewing fresh coffee... Done! Enjoy!</span>',
       ];

@@ -93,12 +93,12 @@ Sijie Xiong, **Shuheng Hu**, Tao Sun, Yuanyuan Zhang, Cheng Tang, Rui Yang, Atsu
 - *2023.09 - 2027.06*, BSc. Information and Computing Science, Xi’an Jiaotong-Liverpool University
 
 <style>
-.terminal-container{width:100%;border-radius:12px;overflow:hidden;box-shadow:0 4px 20px rgba(0,0,0,.08);font-family:’Fira Code’,’Cascadia Code’,’Consolas’,monospace;font-size:14px;border:1px solid #e0dcd4}
+.terminal-container{width:100%;border-radius:12px;overflow:hidden;box-shadow:0 4px 20px rgba(0,0,0,.08);font-family:’Fira Code’,’Cascadia Code’,’Consolas’,monospace;font-size:14px;border:1px solid #e0dcd4;margin-bottom:80px}
 .terminal-header{background:#f0ece2;padding:10px 16px;display:flex;align-items:center;gap:8px}
 .terminal-dot{width:12px;height:12px;border-radius:50%}
 .terminal-dot.red{background:#f0a89e}.terminal-dot.yellow{background:#f0d29a}.terminal-dot.green{background:#aacbac}
 .terminal-header-title{color:#8c857a;font-size:13px;margin-left:8px;opacity:.7}
-.terminal-body{background:#f7f4ed;padding:20px;min-height:120px;max-height:400px;overflow-y:auto}
+.terminal-body{background:#f7f4ed;padding:20px;min-height:120px}
 .terminal-output-line{color:#4a4640;margin-bottom:6px;line-height:1.6;white-space:pre-wrap}
 .terminal-output-line .highlight{color:#b07158}.terminal-output-line .accent{color:#5b8366}.terminal-output-line .warn{color:#b07158}.terminal-output-line .error{color:#c25d5d}
 .terminal-prompt-line{display:flex;align-items:center;margin-top:8px}
