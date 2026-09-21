@@ -91,3 +91,129 @@ Sijie Xiong, **Shuheng Hu**, Tao Sun, Yuanyuan Zhang, Cheng Tang, Rui Yang, Atsu
 
 # 📖 Educations
 - *2023.09 - 2027.06*, BSc. Information and Computing Science, Xi’an Jiaotong-Liverpool University
+
+<style>
+.terminal-container{max-width:700px;margin:40px auto;border-radius:12px;overflow:hidden;box-shadow:0 8px 30px rgba(0,0,0,.12);font-family:’Fira Code’,’Cascadia Code’,’Consolas’,monospace;font-size:14px}
+.terminal-header{background:#2e3440;padding:10px 16px;display:flex;align-items:center;gap:8px}
+.terminal-dot{width:12px;height:12px;border-radius:50%}
+.terminal-dot.red{background:#bf616a}.terminal-dot.yellow{background:#ebcb8b}.terminal-dot.green{background:#a3be8c}
+.terminal-header-title{color:#d8dee9;font-size:13px;margin-left:8px;opacity:.7}
+.terminal-body{background:#3b4252;padding:20px;min-height:120px;max-height:400px;overflow-y:auto}
+.terminal-output-line{color:#d8dee9;margin-bottom:6px;line-height:1.6;white-space:pre-wrap}
+.terminal-output-line .highlight{color:#88c0d0}.terminal-output-line .accent{color:#a3be8c}.terminal-output-line .warn{color:#ebcb8b}.terminal-output-line .error{color:#bf616a}
+.terminal-prompt-line{display:flex;align-items:center;margin-top:8px}
+.terminal-user{color:#a3be8c}.terminal-at{color:#d8dee9}.terminal-host{color:#88c0d0}.terminal-sep{color:#d8dee9}.terminal-path{color:#81a1c1}.terminal-dollar{color:#d8dee9;margin-right:8px}
+.terminal-input{background:transparent;border:none;outline:none;color:#d8dee9;font-family:inherit;font-size:inherit;flex:1;caret-color:#88c0d0}
+.terminal-input::placeholder{color:#4c566a}
+.terminal-hint{color:#4c566a;padding:8px 0 0;font-size:12px}
+.terminal-hint span{color:#ebcb8b}
+.terminal-ascii{color:#88c0d0}.terminal-coffee-art{color:#ebcb8b}
+</style>
+
+<div class="terminal-container">
+  <div class="terminal-header">
+    <div class="terminal-dot red"></div>
+    <div class="terminal-dot yellow"></div>
+    <div class="terminal-dot green"></div>
+    <span class="terminal-header-title">visitor@shuheng ~ </span>
+  </div>
+  <div class="terminal-body" id="terminalBody">
+    <div class="terminal-prompt-line">
+      <span class="terminal-user">visitor</span><span class="terminal-at">@</span><span class="terminal-host">shuheng</span><span class="terminal-sep">:</span><span class="terminal-path">~</span><span class="terminal-dollar">$</span>
+      <input class="terminal-input" id="terminalInput" type="text" placeholder="type ‘help’ for commands..." autofocus autocomplete="off" spellcheck="false">
+    </div>
+    <div class="terminal-hint">💡 Try: <span>help</span> · <span>neofetch</span> · <span>fortune</span> · <span>coffee</span> · <span>sudo</span> · <span>clear</span></div>
+  </div>
+</div>
+
+<script>
+(function(){
+  var body=document.getElementById(‘terminalBody’);
+  var input=document.getElementById(‘terminalInput’);
+  var commands={
+    help:function(){return[
+      ‘<span class="highlight">Available commands:</span>’,
+      ‘  <span class="accent">help</span>      - Show this help message’,
+      ‘  <span class="accent">neofetch</span>  - Display system info’,
+      ‘  <span class="accent">fortune</span>   - Get a random quote’,
+      ‘  <span class="accent">coffee</span>    - Brew some coffee’,
+      ‘  <span class="accent">sudo</span>      - Try sudo’,
+      ‘  <span class="accent">clear</span>     - Clear terminal’
+    ]},
+    neofetch:function(){return[
+      ‘<span class="terminal-ascii">       _____ _   _</span>’,
+      ‘<span class="terminal-ascii">      / ____| | | |</span>         <span class="highlight">visitor</span>@<span class="highlight">shuheng</span>’,
+      ‘<span class="terminal-ascii">     | (___ | |_| |</span>         ----------------’,
+      ‘<span class="terminal-ascii">      \\___ \\|  _  |</span>         <span class="accent">OS:</span> Homepage v2.0’,
+      ‘<span class="terminal-ascii">      ____) | | | |</span>         <span class="accent">Host:</span> GitHub Pages’,
+      ‘<span class="terminal-ascii">     |_____/|_| |_|</span>         <span class="accent">Role:</span> Student & Researcher @ XJTLU’,
+      ‘                             <span class="accent">Interests:</span> Multimodal LLMs, Optimization’,
+      ‘                             <span class="accent">Editor:</span> VS Code + PyCharm’,
+      ‘                             <span class="accent">Languages:</span> Python, C++, JavaScript’,
+      ‘                             <span class="accent">Uptime:</span> Since 2023.09’
+    ]},
+    fortune:function(){
+      var quotes=[
+        ‘"The best way to predict the future is to invent it." — Alan Kay’,
+        ‘"Talk is cheap. Show me the code." — Linus Torvalds’,
+        ‘"Any sufficiently advanced technology is indistinguishable from magic." — Arthur C. Clarke’,
+        ‘"Simplicity is the soul of efficiency." — Austin Freeman’,
+        ‘"First, solve the problem. Then, write the code." — John Johnson’,
+        ‘"Stay hungry, stay foolish." — Steve Jobs’,
+        ‘"In the middle of difficulty lies opportunity." — Albert Einstein’,
+        ‘"The only way to do great work is to love what you do." — Steve Jobs’
+      ];
+      return[‘<span class="warn">🔮 ‘+quotes[Math.floor(Math.random()*quotes.length)]+’</span>’]
+    },
+    coffee:function(){return[
+      ‘<span class="terminal-coffee-art">    ( (</span>’,
+      ‘<span class="terminal-coffee-art">     ) )</span>’,
+      ‘<span class="terminal-coffee-art">  ........</span>’,
+      ‘<span class="terminal-coffee-art">  |      |]</span>’,
+      ‘<span class="terminal-coffee-art">  \\      /</span>’,
+      ‘<span class="terminal-coffee-art">   `----\’</span>’,
+      ‘’,
+      ‘<span class="accent">☕ Brewing fresh coffee... Done! Enjoy!</span>’
+    ]},
+    sudo:function(){return[
+      ‘<span class="error">🚫 Permission denied: Nice try! You are not root here 😄</span>’
+    ]}
+  };
+  function addOutput(lines){
+    var prompt=body.querySelector(‘.terminal-prompt-line’);
+    var hint=body.querySelector(‘.terminal-hint’);
+    lines.forEach(function(line){
+      var div=document.createElement(‘div’);
+      div.className=’terminal-output-line’;
+      div.innerHTML=line;
+      body.insertBefore(div,prompt);
+    });
+    body.scrollTop=body.scrollHeight;
+  }
+  function newPrompt(cmd){
+    var prompt=body.querySelector(‘.terminal-prompt-line’);
+    var div=document.createElement(‘div’);
+    div.className=’terminal-output-line’;
+    div.innerHTML=’<span class="terminal-user">visitor</span><span class="terminal-at">@</span><span class="terminal-host">shuheng</span><span class="terminal-sep">:</span><span class="terminal-path">~</span><span class="terminal-dollar">$</span> ‘+cmd;
+    body.insertBefore(div,prompt);
+  }
+  input.addEventListener(‘keydown’,function(e){
+    if(e.key===’Enter’){
+      var cmd=input.value.trim().toLowerCase();
+      input.value=’’;
+      if(!cmd)return;
+      newPrompt(cmd);
+      if(cmd===’clear’){
+        var outputLines=body.querySelectorAll(‘.terminal-output-line’);
+        outputLines.forEach(function(el){el.remove()});
+      }else if(commands[cmd]){
+        addOutput(commands[cmd]());
+      }else{
+        addOutput([‘<span class="error">command not found: ‘+cmd+’. Type \’help\’ for available commands.</span>’]);
+      }
+      body.scrollTop=body.scrollHeight;
+    }
+  });
+  body.addEventListener(‘click’,function(){input.focus()});
+})();
+</script>
