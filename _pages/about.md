@@ -78,12 +78,13 @@ Sijie Xiong, **Shuheng Hu**, Tao Sun, Yuanyuan Zhang, Cheng Tang, Rui Yang, Atsu
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">preprint</div><img src='images/movemate.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">MobileHCI 2026</div><img src='images/movemate.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [MoveMate: Supporting Video-Guided Workouts through Motion Visual Analysis and Multi-Device Guidance](https://programs.sigchi.org/mobilehci/2026/program/content/263573)
 
 Yihan Liu, Anqi Xie, **Shuheng Hu**, Yong Yue, Yu Liu
+ACM International Conference on Mobile Human-Computer Interaction (MobileHCI), 2026.
 
 </div>
 </div>
@@ -95,6 +96,3 @@ Yihan Liu, Anqi Xie, **Shuheng Hu**, Yong Yue, Yu Liu
 - *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 - *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/) -->
 
-<!-- # 💻 Internships
-<!-- - *2026.06 - ...*, [Lorem](https://github.com/), China. -->
-- *2026.06 - ...*, Coming soon ... -->
