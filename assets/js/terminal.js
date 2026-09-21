@@ -17,16 +17,15 @@ document.addEventListener("DOMContentLoaded", function () {
     },
     neofetch: function () {
       return [
-        '<span class="terminal-ascii">       _____ _   _</span>',
-        '<span class="terminal-ascii">      / ____| | | |</span>         <span class="highlight">visitor</span>@<span class="highlight">shuheng</span>',
-        '<span class="terminal-ascii">     | (___ | |_| |</span>         ----------------',
-        '<span class="terminal-ascii">      \\___ \\|  _  |</span>         <span class="accent">OS:</span> Homepage v2.0',
-        '<span class="terminal-ascii">      ____) | | | |</span>         <span class="accent">Host:</span> GitHub Pages',
-        '<span class="terminal-ascii">     |_____/|_| |_|</span>         <span class="accent">Role:</span> Student &amp; Researcher @ XJTLU',
-        '                             <span class="accent">Interests:</span> Multimodal LLMs, Optimization',
-        '                             <span class="accent">Editor:</span> VS Code + PyCharm',
-        '                             <span class="accent">Languages:</span> Python, C++, JavaScript',
-        '                             <span class="accent">Uptime:</span> Since 2023.09',
+        '<span class="terminal-ascii"> _   _ ____  _   _</span>',
+        '<span class="terminal-ascii">| | | / ___|| | | |</span>   <span class="highlight">visitor</span>@<span class="highlight">shuheng</span>',
+        '<span class="terminal-ascii">| |_| \\___ \\| |_| |</span>   __________________',
+        '<span class="terminal-ascii">|  _  |___) |  _  |</span>   <span class="accent">Name:</span> Shuheng Hu (胡书恒)',
+        '<span class="terminal-ascii">|_| |_|____/|_| |_|</span>   <span class="accent">Role:</span> Student &amp; Researcher @ XJTLU',
+        '                      <span class="accent">Research:</span> Multimodal LLMs · Optimization',
+        '                      <span class="accent">Location:</span> Suzhou, China 🇨🇳',
+        '                      <span class="accent">Uptime:</span> Since Sept. 2023',
+        '                      <span style="color:#bf616a">██</span><span style="color:#d08770">██</span><span style="color:#ebcb8b">██</span><span style="color:#a3be8c">██</span><span style="color:#88c0d0">██</span><span style="color:#81a1c1">██</span><span style="color:#b48ead">██</span>',
       ];
     },
     fortune: function () {
