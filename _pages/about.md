@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hi there! 👋 I’m a final-year Information and Computing Science undergraduate student at Xi’an Jiaotong-Liverpool University, advised by Prof. Haiyang Zhang.
+Hi there! 👋 I’m Shuheng Hu (胡书恒), a final-year Information and Computing Science undergraduate student at Xi’an Jiaotong-Liverpool University, advised by [Dr. Zhiguang Cao](https://zhiguangcaosg.github.io/) and [Dr. Haiyang Zhang](https://scholar.xjtlu.edu.cn/en/persons/HaiyangZhang/).
 
 My research interests lie in algorithmic foundations of multimodal large models and optimization problems.
 
@@ -95,4 +95,3 @@ ACM International Conference on Mobile Human-Computer Interaction (MobileHCI), 2
 <!-- # 💬 Invited Talks
 - *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 - *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/) -->
-
