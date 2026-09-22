@@ -19,7 +19,7 @@ redirect_from:
 
 Hi there! 👋 I’m Shuheng Hu (胡书恒), a final-year Information and Computing Science undergraduate student at Xi’an Jiaotong-Liverpool University, advised by [Dr. Zhiguang Cao](https://zhiguangcaosg.github.io/) and [Dr. Haiyang Zhang](https://scholar.xjtlu.edu.cn/en/persons/HaiyangZhang/).
 
-My research interests lie in interpreting and efficiently controlling LLM behaviors, with a focus on:
+My research interests lie in **interpreting and efficiently controlling LLM behaviors**, with a focus on:
 - Multimodal reasoning of LLMs and VLMs
 - Autonomous agent frameworks with self-improvement
 - Trustworthy and traceable systems over long horizons
