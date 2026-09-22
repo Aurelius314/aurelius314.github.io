@@ -66,8 +66,10 @@ document.addEventListener("DOMContentLoaded", function () {
     },
   };
 
-  function scrollToInput() {
-    input.scrollIntoView({ behavior: "smooth", block: "nearest" });
+  function scrollToBottom() {
+    setTimeout(function () {
+      window.scrollTo({ top: document.body.scrollHeight, behavior: "smooth" });
+    }, 50);
   }
 
   function addOutput(lines) {
@@ -78,7 +80,7 @@ document.addEventListener("DOMContentLoaded", function () {
       div.innerHTML = line;
       body.insertBefore(div, prompt);
     });
-    scrollToInput();
+    scrollToBottom();
   }
 
   function newPrompt(cmd) {
@@ -115,7 +117,7 @@ document.addEventListener("DOMContentLoaded", function () {
             ". Type 'help' for available commands.</span>",
         ]);
       }
-      scrollToInput();
+      scrollToBottom();
     }
   });
 
