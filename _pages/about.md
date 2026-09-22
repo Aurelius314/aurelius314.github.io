@@ -19,13 +19,21 @@ redirect_from:
 
 Hi there! 👋 I’m Shuheng Hu (胡书恒), a final-year Information and Computing Science undergraduate student at Xi’an Jiaotong-Liverpool University, advised by [Dr. Zhiguang Cao](https://zhiguangcaosg.github.io/) and [Dr. Haiyang Zhang](https://scholar.xjtlu.edu.cn/en/persons/HaiyangZhang/).
 
-My research interests lie in algorithmic foundations of multimodal large models and optimization problems.
+My research interests lie in interpreting and efficiently controlling LLM behaviors, with a focus on:
+- Multimodal reasoning of LLMs and VLMs
+- Autonomous agent frameworks with self-improvement
+- Trustworthy and traceable systems over long horizons
 
+<!-- algorithmic foundations of multimodal large models and optimization problems. -->
+
+Please don't hesitate to reach out if you'd like to discuss research collaborations, share ideas, or simply chat and connect!
 
 # 🔥 News
-- *2025.11*: &nbsp;🎉🎉 Our paper titled Cross-Subject EEG Emotion Recognition via Adaptive Representation and Attention Fusion is accepted by BICS 2025 Oral! 
+- *2026.8*: &nbsp;🎉 One paper is accepted by EMNLP 2026!
+- *2026.6*: &nbsp;🎉 One paper is accepted by MobileHCI 2026!
+- *2025.11*: &nbsp;🎉 One paper is accepted by Brain Inspired Cognitive Systems (BICS), 2025!
 
-# 📝 Publications 
+# 📝 Papers 
 
 <!-- - [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020** -->
 
@@ -39,7 +47,7 @@ My research interests lie in algorithmic foundations of multimodal large models 
 Multimodal Boolean Logic Culture Retrieval
 
 Jian Zhang, **Shuheng Hu**, Jiutian Chang, Junyi Guo, Huanda Lu, Qiufeng Wang, Fangyu Wu
-EMNLP Findings, 2026
+<!-- EMNLP Findings, 2026 -->
 
 </div>
 </div>
@@ -50,7 +58,7 @@ EMNLP Findings, 2026
 [MoveMate: Supporting Video-Guided Workouts through Motion Visual Analysis and Multi-Device Guidance](https://programs.sigchi.org/mobilehci/2026/program/content/263573)
 
 Yihan Liu, Anqi Xie, **Shuheng Hu**, Yong Yue, Yu Liu
-ACM International Conference on Mobile Human-Computer Interaction (MobileHCI), 2026.
+<!-- ACM International Conference on Mobile Human-Computer Interaction (MobileHCI), 2026. -->
 
 </div>
 </div>
@@ -62,7 +70,7 @@ Cross-Subject EEG Emotion Recognition via Adaptive Representation and Attention 
 <!-- (https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf) -->
 
 Siyuan Gao, **Shuheng Hu**, Zhao Wang, Yumei Luo, Fangyu Wu
-brain inspired cognitive systems (BICS), 2025
+<!-- brain inspired cognitive systems (BICS), 2025 -->
 
 <!-- [**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->
