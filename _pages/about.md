@@ -100,6 +100,10 @@ Sijie Xiong, **Shuheng Hu**, Tao Sun, Yuanyuan Zhang, Cheng Tang, Rui Yang, Atsu
 # 📖 Educations
 - *2023.09 - 2027.06*, BSc. Information and Computing Science, Xi’an Jiaotong-Liverpool University
 
+# Personal
+
+I enjoy many outdoor activities, including basketball, backpacking, and hiking. I also love films and documentaries, and my favorite director is [Jia Zhangke (贾樟柯)](https://en.wikipedia.org/wiki/Jia_Zhangke).
+
 <style>
 .terminal-container{width:100%;border-radius:12px;overflow:hidden;box-shadow:0 4px 20px rgba(0,0,0,.08);font-family:’Fira Code’,’Cascadia Code’,’Consolas’,monospace;font-size:14px;border:1px solid #e0dcd4;margin-bottom:80px}
 .terminal-header{background:#f0ece2;padding:10px 16px;display:flex;align-items:center;gap:8px}
