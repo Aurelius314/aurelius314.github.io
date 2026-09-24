@@ -102,7 +102,7 @@ Sijie Xiong, **Shuheng Hu**, Tao Sun, Yuanyuan Zhang, Cheng Tang, Rui Yang, Atsu
 
 # 🌱 Personal
 
-I enjoy many outdoor activities, including basketball, backpacking, and hiking. I also love films and documentaries, and my favorite director is [Jia Zhangke (贾樟柯)](https://en.wikipedia.org/wiki/Jia_Zhangke).
+In addition to my research interests, I have a deep passion for many outdoor activities, which includes basketball, backpacking, and hiking. I also have a broad interest in films and documentaries, and my favorite director is [Jia Zhangke (贾樟柯)](https://en.wikipedia.org/wiki/Jia_Zhangke).
 
 <style>
 .terminal-container{width:100%;border-radius:12px;overflow:hidden;box-shadow:0 4px 20px rgba(0,0,0,.08);font-family:’Fira Code’,’Cascadia Code’,’Consolas’,monospace;font-size:14px;border:1px solid #e0dcd4;margin-bottom:80px}
