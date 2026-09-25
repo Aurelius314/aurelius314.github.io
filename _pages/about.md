@@ -133,7 +133,7 @@ In addition to my research interests, I have a deep passion for many outdoor act
   <div class="terminal-body" id="terminalBody">
     <div class="terminal-prompt-line">
       <span class="terminal-user">visitor</span><span class="terminal-at">@</span><span class="terminal-host">shuheng</span><span class="terminal-sep">:</span><span class="terminal-path">~</span><span class="terminal-dollar">$</span>
-      <input class="terminal-input" id="terminalInput" type="text" placeholder="type ‘help’ for commands..." autocomplete="off" spellcheck="false">
+      <input class="terminal-input" id="terminalInput" type="text" placeholder="type 'help' for commands..." autocomplete="off" spellcheck="false">
     </div>
     <div class="terminal-hint">💡 Try: <span>help</span> · <span>neofetch</span> · <span>fortune</span> · <span>coffee</span> · <span>sudo</span> · <span>clear</span></div>
   </div>
