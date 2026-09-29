@@ -29,7 +29,7 @@ My research interests lie in **interpreting and efficiently controlling LLM beha
 Please don't hesitate to reach out if you'd like to discuss research collaborations, share ideas, or simply chat and connect!
 
 # 🔥 News
-- *2026.8*: &nbsp;🎉 One paper is accepted by EMNLP 2026!
+- *2026.8*: &nbsp;🎉 One paper is accepted by EMNLP 2026 Findings!
 - *2026.6*: &nbsp;🎉 One paper is accepted by MobileHCI 2026!
 - *2025.11*: &nbsp;🎉 One paper is accepted by Brain Inspired Cognitive Systems (BICS), 2025!
 
@@ -44,7 +44,7 @@ Please don't hesitate to reach out if you'd like to discuss research collaborati
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">EMNLP 2026</div><img src='images/CLAIR.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-Multimodal Boolean Logic Culture Retrieval
+Multimodal Boolean Logic Culture Retrieval [[paper]](https://openreview.net/forum?id=STuP23xN5l#discussion) [[code]](https://github.com/JianZhang24/Culti2.0)
 
 Jian Zhang, **Shuheng Hu**, Jiutian Chang, Junyi Guo, Huanda Lu, Qiufeng Wang, Fangyu Wu
 <!-- EMNLP Findings, 2026 -->
@@ -55,7 +55,7 @@ Jian Zhang, **Shuheng Hu**, Jiutian Chang, Junyi Guo, Huanda Lu, Qiufeng Wang, F
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">MobileHCI 2026</div><img src='images/movemate.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[MoveMate: Supporting Video-Guided Workouts through Motion Visual Analysis and Multi-Device Guidance](https://programs.sigchi.org/mobilehci/2026/program/content/263573)
+MoveMate: Supporting Video-Guided Workouts through Motion Visual Analysis and Multi-Device Guidance [[paper]](https://programs.sigchi.org/mobilehci/2026/program/content/263573) [[code]](https://github.com/yihanliux/MoveMate)
 
 Yihan Liu, Anqi Xie, **Shuheng Hu**, Yong Yue, Yu Liu
 <!-- ACM International Conference on Mobile Human-Computer Interaction (MobileHCI), 2026. -->
@@ -66,7 +66,7 @@ Yihan Liu, Anqi Xie, **Shuheng Hu**, Yong Yue, Yu Liu
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">BICS 2025</div><img src='images/bics.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-Cross-Subject EEG Emotion Recognition via Adaptive Representation and Attention Fusion
+Cross-Subject EEG Emotion Recognition via Adaptive Representation and Attention Fusion \[paper\] [[code]](https://github.com/Aurelius314/emotion-recognition)
 <!-- (https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf) -->
 
 Siyuan Gao, **Shuheng Hu**, Zhao Wang, Yumei Luo, Fangyu Wu
@@ -80,7 +80,7 @@ Siyuan Gao, **Shuheng Hu**, Zhao Wang, Yumei Luo, Fangyu Wu
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">preprint</div><img src='images/muse.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-ArtiMuse: A Comprehensive Dataset for Multimodal Cultural Understanding of Chinese Museum Artifacts
+MuseBench: A Comprehensive Benchmark for Multimodal Cultural Understanding of Chinese Museum Artifacts [[paper]](https://openreview.net/pdf?id=IsuJ4GBCoe) [[code]](https://github.com/JianZhang24/ArtiMuse)
 
 Jian Zhang, Junyi Guo, **Shuheng Hu**, Jiutian Chang, Qiufeng Wang, Fangyu Wu
 
