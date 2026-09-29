@@ -87,22 +87,12 @@ Jian Zhang, Junyi Guo, **Shuheng Hu**, Jiutian Chang, Qiufeng Wang, Fangyu Wu
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">preprint</div><img src='images/TBME.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-Personalized Glucose Monitoring of Diabetes: An Efficient 2D Controllable Holt-Winters Model with PID Controllers
-
-Sijie Xiong, **Shuheng Hu**, Tao Sun, Yuanyuan Zhang, Cheng Tang, Rui Yang, Atsushi Shimada
-
-</div>
-</div>
-
 # 📖 Educations
 - *2023.09 - 2027.06*, BSc. Information and Computing Science, Xi’an Jiaotong-Liverpool University
 
 # 🌱 Personal
 
-In addition to my research interests, I have a deep passion for many outdoor activities, which includes basketball, backpacking and hiking. I also have a broad interest in films and documentaries, and my favorite director is [Jia Zhangke (贾樟柯)](https://en.wikipedia.org/wiki/Jia_Zhangke).
+In addition to my research interests, I have a deep passion for many outdoor activities, which includes basketball, backpacking and hiking. I also have a broad interest in films and documentaries, and my favorite filmmaker is [Jia Zhangke (贾樟柯)](https://en.wikipedia.org/wiki/Jia_Zhangke).
 
 <style>
 .terminal-container{width:100%;border-radius:12px;overflow:hidden;box-shadow:0 4px 20px rgba(0,0,0,.08);font-family:’Fira Code’,’Cascadia Code’,’Consolas’,monospace;font-size:14px;border:1px solid #e0dcd4;margin-bottom:80px}
