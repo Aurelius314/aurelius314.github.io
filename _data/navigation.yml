@@ -11,3 +11,6 @@ main:
 
   - title: "Educations"
     url: "/#-educations"
+
+  - title: "CV"
+    url: "https://aurelius314.github.io/cv.pdf"
