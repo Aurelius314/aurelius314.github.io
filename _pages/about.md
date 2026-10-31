@@ -55,7 +55,7 @@ Jian Zhang, **Shuheng Hu**, Jiutian Chang, Junyi Guo, Huanda Lu, Qiufeng Wang, F
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">MobileHCI 2026</div><img src='images/movemate.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-MoveMate: Supporting Video-Guided Workouts through Motion Visual Analysis and Multi-Device Guidance [[paper]](https://programs.sigchi.org/mobilehci/2026/program/content/263573) [[code]](https://github.com/yihanliux/MoveMate)
+MoveMate: Supporting Video-Guided Workouts through Motion Visual Analysis and Multi-Device Guidance [[paper]](https://programs.sigchi.org/mobilehci/2026/program/content/263573) [[code]](https://github.com/Aurelius314/MoveMate)
 
 Yihan Liu, Anqi Xie, **Shuheng Hu**, Yong Yue, Yu Liu
 <!-- ACM International Conference on Mobile Human-Computer Interaction (MobileHCI), 2026. -->
